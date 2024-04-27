@@ -1,5 +1,3 @@
-
-
 // node --version # Should be >= 18
 // npm install @google/generative-ai
 
@@ -45,8 +43,7 @@ async function runChat(prompt) {
   const chat = model.startChat({
     generationConfig,
     safetySettings,
-    history: [
-    ],
+    history: [],
   });
 
   const result = await chat.sendMessage(prompt);
@@ -55,4 +52,4 @@ async function runChat(prompt) {
   return response.text();
 }
 
- export default runChat;
+export default runChat;
