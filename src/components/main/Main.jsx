@@ -19,8 +19,8 @@ const Main = () => {
 	return (
 		<div className="main">
 			<div className="nav">
-				<p>Gemini</p>
-				<img src={assets.user} alt="" />
+				<p>H2A</p>
+				<img src={assets.H2A} style={{height :50 , width : 50 , objectFit:"contain"}} alt="" />
 			</div>
 			<div className="main-container">
 				{!showResults ? (
