@@ -31,7 +31,7 @@ const Main = () => {
           <>
             <div className="greet">
               <p>
-                <span>Hello , Himanshu </span>
+                <span>Hello , User </span>
               </p>
               <p>How Can i Help You Today?</p>
             </div>
@@ -110,8 +110,8 @@ const Main = () => {
               placeholder="Enter the Prompt Here"
             />
             <div>
-              <img src={assets.gallery_icon} alt="" />
-              <img src={assets.mic_icon} alt="" />
+              {/* <img src={assets.gallery_icon} alt="" /> */}
+              {/* <img src={assets.mic_icon} alt="" /> */}
               <img
                 src={assets.send_icon}
                 alt=""
